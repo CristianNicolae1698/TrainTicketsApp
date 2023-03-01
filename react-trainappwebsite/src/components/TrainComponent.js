@@ -23,7 +23,7 @@ function TrainComponent() {
   const [routeId, setRouteId] = useState([])
   const [optionsState, setOptionsState] = useState([])
   const [selectedTrain, setSelectedTrain] = useState({})
-  const user=useSelector((state)=>state.user.value)
+  const user = useSelector((state)=>state.user.value)
   const dispatch=useDispatch();
   
 

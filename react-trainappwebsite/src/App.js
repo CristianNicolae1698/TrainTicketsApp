@@ -4,7 +4,7 @@ import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import './App.css';
 import Home from './components/Pages/Home';
 import SignUpComponent from './components/SignUpComponent';
-import store from "./components/redux/store"
+import store from "./components/redux/store.js"
 import { Provider } from 'react-redux'
 
 function App() {

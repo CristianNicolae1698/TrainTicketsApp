@@ -56,20 +56,9 @@ const handleSubmitSignIn = () => {
       .then((responseData) => { setToken(responseData) });
       console.log(token)
       dispatch(updateUser(token));
-      alert("You have been successfully signed in for " + user)
-      
-  
-  
-  
-  
+      alert("You have been successfully signed in for " + token)
 
 }
-
-
-
-
-
-
 
 
   return (
